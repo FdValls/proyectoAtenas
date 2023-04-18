@@ -46,6 +46,7 @@
 
 body {
   margin: 1%;
+  /* width: 1640px; */
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
