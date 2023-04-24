@@ -121,6 +121,7 @@ footer {
 }
 
 .footer-07 {
+  margin-top: 15px;
   background: black;
 }
 
@@ -173,12 +174,13 @@ svg {
   user-select: none;
 }
 
-.contenido{
+.contenido {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 140px;
 }
 
 @media (min-width: 768px) {
@@ -187,16 +189,27 @@ svg {
   }
 }
 
-main{
-  margin: 25px;
+main {
+  margin-top: 25px;
   background-color: white;
 }
 
-.titleReglamento{
+.titleReglamento {
   background-color: gray;
 }
 
-section{
+section {
+  height: 100vh;
+  display: flex;
+
   justify-content: center;
   align-items: center;
+}
+
+.fondo {
+  background-image: url("/images/fondo-claro-rosa-pastel_53876-120097.avif");
+}
+
+.fondoNav {
+  border: none;
 }

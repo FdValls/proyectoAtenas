@@ -598,8 +598,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  /* padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem); */
   margin-right: auto;
   margin-left: auto;
 }
@@ -1437,6 +1437,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    /* width: 100%; */
   }
 
   .col-lg-7 {
@@ -3936,8 +3937,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -8897,7 +8898,7 @@ textarea.form-control-lg {
   }
 
   .flex-lg-row-reverse {
-    flex-direction: row-reverse !important;
+    /* flex-direction: row-reverse !important; */
   }
 
   .flex-lg-column-reverse {
